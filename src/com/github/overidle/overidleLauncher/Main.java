@@ -14,7 +14,6 @@ public class Main {
     private static MineBootModule overIdleMineBootLauncher;
 
     public static void main(String[] args) throws IOException, NoSuchMethodException {
-        System.out.println(new File("./").getAbsolutePath());
         overIdleMineBootLauncher = new MineBootModule("overIdleLauncher", MineBootModuleType.ModuleType.BASIC, 1) {
             @Override
             public void onEnable() {

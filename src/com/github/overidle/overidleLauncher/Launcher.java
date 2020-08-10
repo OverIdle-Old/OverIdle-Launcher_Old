@@ -2,6 +2,7 @@ package com.github.overidle.overidleLauncher;
 
 import com.sunproject.minebootApi.api.init.MineBootAPiInit;
 import com.sunproject.sunupdate.About;
+import com.sunproject.sunupdate.DownloadUpdate;
 import com.sunproject.sunupdate.GithubAPI;
 import fr.litarvan.openauth.AuthPoints;
 import fr.litarvan.openauth.AuthenticationException;
@@ -93,14 +94,19 @@ public class Launcher {
 
     public static void up() throws Exception {
 
-        File updatePath = new File("").getAbsoluteFile();
+    /*    File updatePath = new File("");
 
         GithubAPI githubAPI = new GithubAPI(about.getRepoUrl());
+
+        if (githubAPI.getJson() != null) {
+            DownloadUpdate.download(githubAPI.getLatestRelease().getBinUrl(), new File(updatePath.getAbsolutePath() + "/" + githubAPI.getLatestRelease().getBinName()));
+        }
+
 
         System.out.println(githubAPI.getJson());
 
 
-
+*/
 
 
         if (SystemTray.isSupported()) {
