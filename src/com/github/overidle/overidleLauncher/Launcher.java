@@ -2,8 +2,6 @@ package com.github.overidle.overidleLauncher;
 
 import com.sunproject.minebootApi.api.init.MineBootAPiInit;
 import com.sunproject.sunupdate.About;
-import com.sunproject.sunupdate.DownloadUpdate;
-import com.sunproject.sunupdate.GithubAPI;
 import fr.litarvan.openauth.AuthPoints;
 import fr.litarvan.openauth.AuthenticationException;
 import fr.litarvan.openauth.Authenticator;

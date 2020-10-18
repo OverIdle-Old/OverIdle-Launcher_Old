@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/s-update-3.1.0-BETA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/openlauncherlib-3.0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/discord-rpc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/openauth-1.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/MineBootFramework-1.0.1-jar-with-dependencies.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/sunupdate-1.2.1-jar-with-dependencies.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/swinger-1.0.0-BETA.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
